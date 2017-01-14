@@ -1,0 +1,26 @@
+@@Operation
+icrash.environment.actAdministrator.outactAdministrator.oeGetCoordinatorsSet
+@description
+"sent to request all the ctCoordinator instances."
+
+//preProtocol descriptions
+@preP
+"the system is started"
+@preP
+"the actor logged previously and did not log out ! (i.e. the associated ctCoordinator instance is considered logged)"
+@endPreP
+
+//preFunctional descriptions
+@preF
+"none"
+@endPreF
+
+//postFunctional descriptions
+@postF 
+" all existing ctCoordinator instances are sent Administrator"
+@endPostF
+
+//postProtocol descriptions
+@postP 
+" none"
+@endPostP

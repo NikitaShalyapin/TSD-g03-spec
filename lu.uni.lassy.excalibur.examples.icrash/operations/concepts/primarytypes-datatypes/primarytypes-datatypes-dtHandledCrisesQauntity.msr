@@ -1,0 +1,21 @@
+package icrash.operations.concepts.primarytypes.datatypes.dtHandledCrisesQauntity {
+
+import lu.uni.lassy.messir.libraries.primitives
+
+Operation Model {
+
+operation: icrash.concepts.primarytypes.datatypes.dtHandledCrisesQauntity.is():ptBoolean{
+    postF{ 
+        let TheResult: ptBoolean in
+        ( if ( AdtValue.value.geq(0))
+          then (TheResult = true)
+          else (TheResult = false)
+          endif
+          result = TheResult
+        )
+       
+    }
+}
+}
+
+}

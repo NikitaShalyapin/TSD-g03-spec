@@ -1,0 +1,8 @@
+@@Operation
+icrash.concepts.primarytypes.datatypes.dtHandledCrisesQauntity.is
+@description
+" used to determine which Integers are considered as valid dtHandledCrisesQauntity."
+//postFunctional descriptions
+@postF 
+" is true if Integer value is greater or equals 0."
+@endPostF
